@@ -1,0 +1,865 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #cbedf3;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #1fa5ba;
+}
+
+/* Header */
+
+.main_header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0px;
+    align-self: center;
+    align-items: center;
+}
+
+.header_center {
+    display: flex;
+}
+
+.header_end {
+    display: flex;
+}
+
+.header_menu_item {
+    margin-right: 50px;
+}
+
+.header_sm {
+    margin-right: 35px;
+}
+
+/* Body */
+
+.main {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.first_banner {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+    height: 100vh;
+    margin: 40px 0px;
+    justify-content: space-between;
+}
+
+.first_banner_left {
+    display: flex;
+    background-color: #E7F9FD;
+    border-radius: 0 60px 60px 0;
+    margin-right: 30px;
+    width: 2%;
+    height: 90%;
+    align-self: center;
+}
+
+.first_banner_right {
+    display: flex;
+    background-color: #E7F9FD;
+    border-radius: 60px 0px 0px 60px;
+    margin-left: 30px;
+    width: 2%;
+    height: 90%;
+    align-self: center;
+}
+
+.center {
+    display: flex;
+    background-color: #E7F9FD;
+    border-radius: 60px;
+    flex: 1;
+}
+
+.center_left {
+    display: flex;
+    font-weight: bold;
+    align-items: stretch;
+    flex: 1;
+    flex-direction: column;
+}
+
+.center_right {
+    display: flex;
+    flex: 1;
+    border-radius: 0px 60px 60px 0px;
+    background-image: url(./img/first_banner_center.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.first_banner_h1 {
+    font-size: 54px;
+    text-align: left;
+    margin-left: 45px;
+    letter-spacing: -0.04em;
+}
+
+.frst_banner_topbutton {
+    margin: 45px 45px 30px 45px;
+    text-decoration: none;
+}
+
+.first_banner_topbutton {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    /* font-weight: bold; */
+}
+
+.first_banner_topbutton_img {
+    padding-right: 15px;
+}
+
+.first_banner_text {
+    font-size: 14px;
+    color: #5C6466;
+    font-weight: 400;
+    padding: 20px 30px 0 45px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+.center_buttons {
+    display: flex;
+}
+
+.frst_banner_centerbutton {
+    text-decoration: none;
+    margin: 0 0 0 45px;
+}
+
+.frst_banner_centerbutton2 {
+    margin: 0 0 0 20px;
+    text-decoration: none;
+}
+
+.first_banner_centerbutton {
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 8px 20px 8px 15px;
+    background-color: #DBEEF1;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.first_banner_centerbutton_img {
+    margin-right: 8px;
+}
+
+.first_banner_bottom {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 120px 0 0px 45px;
+    align-items: center;
+}
+
+.first_banner_bottom_left{
+    display: flex;
+    align-items: center;
+}
+
+.first_banner_bottom_name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.first_banner_bottom_date {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.first_banner_bottom_text {
+    margin-left: 10px;
+}
+
+.first_banner_bottom_a {
+    margin-left: 120px;
+    text-decoration: none;
+}
+
+.first_banner_bottom_rightbut {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #000000;
+    border-radius: 15px;
+    padding: 12px 30px 12px 30px;
+}
+
+.first_banner_bottom_r_img {
+    margin-left: 10px;
+}
+
+.center_badge{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 40%;
+}
+
+.second_banner {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+
+}
+
+.second_banner_top {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 60px 0;
+}
+
+.second_banner_bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.second_banner_top_txt {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+.second_banner_top_rght {
+    text-decoration: none;
+}
+
+.second_banner_top_rght_b {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    background-color: #E7FAFE;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+}
+
+.second_banner_bottom_block1 {
+    background-image: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+    padding: 0px 35px 20px 35px;
+    border-radius: 30px;
+}
+.second_banner_bottom_block2 {
+    background-image: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+    padding: 0px 35px 20px 35px;
+    border-radius: 30px;
+}
+.second_banner_bottom_block3 {
+    background-image: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+    padding: 0px 35px 20px 35px;
+    border-radius: 30px;
+}
+.second_banner_bottom_block4 {
+    background-image: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+    padding: 0px 35px 20px 35px;
+    border-radius: 30px;
+}
+.second_banner_bottom_block5 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    padding: 0px 35px 20px 35px;
+    border-radius: 30px;
+}
+.second_banner_bottom_block6 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    padding: 0px 35px 20px 35px;
+    border-radius: 30px;
+}
+
+.second_banner_bottom_img_txt {
+    margin: 50px 0 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+/* Third banner */
+
+.third_banner {
+    display: flex;
+    margin-top: 110px;
+    width: 90%;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.third_banner_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third_banner_h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.third_banner_p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 250px 0 250px;
+}
+
+.third_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.third_banner_block {
+    min-width: 100px;
+    max-width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 30px;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.third_banner_block_ad {
+    min-width: 100px;
+    max-width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 80px;
+    justify-content: space-around;
+    background-image: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+}
+
+.ad {
+    position: absolute;
+    top: 33%;
+    right: 10%;
+}
+
+.reminder {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 30px 30px 0 30px; 
+}
+
+.site {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-top: -10px;
+}
+
+.third_banner_img {
+    width: 270px;
+    height: 200px;
+    /* max-width: 100px; */
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.third_banner_block_h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.third_banner_block_txt {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    align-self: flex-start;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.third_banner_block_txt_img {
+    margin-right: 8px;
+}
+
+.third_banner_block_txt_img2 {
+    margin: 0 8px 0 25px;
+}
+
+.third_banner_txt_p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+}
+
+.like {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+}
+
+.third_banner_block_h3d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fourth banner */
+
+.fourth_banner {
+    width: 90%;
+    display: flex;
+    align-self: center;
+    margin: 150px;
+}
+
+.fourth_banner_wrapper {
+    display: flex;
+    position: relative;
+}
+
+.fourth_banner_left {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.fourth_banner_h1 {
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.fourth_banner_p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.fourth_banner_button {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px 30px 10px 30px;
+    border-radius: 16px;
+    margin-top: 100px;
+}
+
+.fourth_banner_right {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-image: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.tomatoes {
+    position: absolute;
+    top: 480px;
+    left: 460px;
+}
+
+.meat {
+    position: absolute;
+    top: 60px;
+    left: 600px;
+}
+
+.onion {
+    position: absolute;
+    top: 110px;
+    left: 930px;
+}
+
+.lettuce {
+    position: absolute;
+    top: 180px;
+    left: 1040px;
+}
+
+/* Fifth banner */
+
+.five_section {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+.fifth_banner_txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifth_banner_h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.fifth_banner_p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 250px 0 250px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* instagram */
+
+.instagram_block {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-self: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.instagram {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    max-width: 290px;
+    align-items: center;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.instagram_header {
+    display: flex;
+    width: 93%;
+    padding-top: 5px;
+    justify-content: space-between;
+}
+
+.instagram_header_left {
+    display: flex;
+}
+
+._avatar {
+    background-color: #357355;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+.avatar {
+    padding-right: 6px;
+}
+
+.name_and_avatar_h3 {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: -0.07733333110809326px;
+    text-align: left;
+    align-items: center;
+}
+
+.name_and_avatar_p {
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0.0541333332657814px;
+    text-align: left;
+}
+
+.name_verified {
+    display: flex;
+}
+
+.verified {
+    padding-left: 3px;
+}
+
+.instagram_photo {
+    position: relative;
+}
+
+.photo_number {
+    position: absolute;
+    top: 9px;
+    left: 255px;
+}
+
+.evaluation {
+    display: flex;
+    width: 93%;
+    justify-content: space-between;
+    padding-top: 5px;
+    align-items: center;
+}
+
+.evaluation_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+}
+
+.evaluation_left_left {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.likes_description_date {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+}
+
+.likes {
+    display: flex;
+    margin-top: 5px;
+}
+
+.name_and_description {
+    margin-top: 3px;
+    display: flex;
+}
+
+.regular_font {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: -0.0541333332657814px;
+    text-align: left;
+    margin-right: 3px;
+}
+
+.liked_avatar {
+    margin-right: 5px;
+}
+
+.date_inst {
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0.03866666555404663px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.instagram_button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.inst_button {
+    border-radius: 16px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.instagram_button_a {
+    text-decoration: none;
+}
+
+.inst_icon {
+    padding-left: 8px;
+}
+
+/* Six section */
+
+.six_section {
+    background-color: red;
+    display: flex;
+    margin-top: 110px;
+    width: 90%;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.six_section_txt {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.six_section_h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-bottom: 30px;
+    background-color: #1fa5ba;;
+}
+
+.six_section_p {
+    background-color: #357355;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    padding: 0 250px 0 250px;
+}
+
+.six_section_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.six_section_block_pane {
+    min-width: 100px;
+    max-width: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 30px;
+    justify-content: space-between;
+    background-image: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+
+.six_section_block_img {
+    width: 270px;
+    height: 200px;
+    /* max-width: 100px; */
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.six_section_block_h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.six_section_block_txt {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    align-self: flex-start;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.six_section_block_txt_img {
+    margin-right: 8px;
+}
+
+.six_section_block_img2 {
+    margin: 0 8px 0 25px;
+}
+
+.six_section_block_txt_p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+}
+
+.six_section_block_like {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+}
+
+.six_section_block_pane_h3d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
